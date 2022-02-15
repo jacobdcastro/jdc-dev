@@ -6,7 +6,7 @@ interface Props {
   setOpen: (p: boolean) => void;
 }
 
-const MobileNav: FC<Props> = ({ open, setOpen }) => {
+const MobileNav: FC<Props> = ({ open = false, setOpen }) => {
   return (
     <FullscreenModal open={open} onClose={() => setOpen(false)}>
       <div className="flex justify-center h-full monument font-black text-2xl tracking-widest uppercase">

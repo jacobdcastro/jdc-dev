@@ -1,3 +1,4 @@
+// @ts-nocheck
 import React, { useState, useEffect, useRef, FC } from 'react';
 import {
   PrimaryLetter,

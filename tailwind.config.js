@@ -1,5 +1,8 @@
 module.exports = {
-  purge: ['./src/**/*.{js,jsx,ts,tsx}'],
+  content: [
+    './**/*.{js,ts,jsx,tsx}',
+    // Add extra paths here
+  ],
   darkMode: 'class',
   theme: {
     extend: {

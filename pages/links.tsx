@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Pfp from 'components/Pfp';
-import Head from 'components/Head';
+import SiteHead from 'components/Head';
 
 const LinksPage = () => {
   const [showCopied, setShowCopied] = useState(false);
@@ -13,7 +13,7 @@ const LinksPage = () => {
 
   return (
     <>
-      <Head />
+      <SiteHead />
       <div
         className="bg-black h-screen w-screen flex flex-col"
         style={{ minHeight: '805px' }}

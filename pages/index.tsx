@@ -5,14 +5,14 @@ import PurpleBg from 'components/PurpleBg';
 import SocialLinks from 'components/SocialLinks';
 import { shuffleArray, skills } from 'lib/skills';
 import MobileNav from 'components/MobileNav';
-import Head from 'components/Head';
+import SiteHead from 'components/Head';
 
 const HomePage = () => {
   const [open, setOpen] = useState(false);
 
   return (
     <>
-      <Head />
+      <SiteHead />
       <div className="relative">
         <PurpleBg />
 

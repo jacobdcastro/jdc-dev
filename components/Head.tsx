@@ -4,7 +4,7 @@ import Head from 'next/head';
 
 type Props = { title?: string };
 
-const Head = (props: Props) => {
+const SiteHead = (props: Props) => {
   return (
     <>
       <Head>
@@ -26,4 +26,4 @@ const Head = (props: Props) => {
   );
 };
 
-export default Head;
+export default SiteHead;

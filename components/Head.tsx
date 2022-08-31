@@ -10,7 +10,7 @@ const SiteHead = (props: Props) => {
       <Head>
         <meta charSet="utf-8" />
         <title>Jacob D. Castro - Web3 Developer</title>
-        <link rel="icon" type="image/png" href="http://jdc.dev/pfp.png" />
+        <link rel="icon" type="image/png" href="https://jdc.dev/pfp.png" />
         <meta
           name="description"
           content="A Web3 Developer building fullstack dapps using React, Express.js, and Solidity. Passionate about crypto literacy, buidling, DAOs, and community."

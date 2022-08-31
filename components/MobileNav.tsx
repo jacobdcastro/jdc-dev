@@ -23,6 +23,9 @@ const MobileNav: FC<Props> = ({ open = false, setOpen }) => {
           <li className="my-3">
             <a href="mailto:jacob@jdc.dev">Email</a>
           </li>
+          <li className="my-3">
+            <a href="/jacob-d-castro-resume_08-2022.pdf">Resume</a>
+          </li>
         </ul>
       </div>
     </FullscreenModal>

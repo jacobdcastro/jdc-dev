@@ -10,19 +10,21 @@ export const shuffleArray = (_arr: string[]) => {
 };
 
 export const skills = [
-  'SEO',
-  'HTML5',
-  'CSS3',
+  // 'SEO',
+  // 'HTML5',
+  // 'CSS3',
   'JavaScript',
   'TypeScript',
   'React',
   'Express.js',
   'MongoDB',
   'MySQL',
-  'Redux',
-  'XState',
-  'Web 3.0',
-  'Ethereum',
+  'GraphQL',
+  'Node.js',
+  // 'Redux',
+  // 'XState',
+  'Web3',
+  // 'Ethereum',
   'Solidity',
   // 'Solana'
 ];

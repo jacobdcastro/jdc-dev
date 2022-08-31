@@ -36,13 +36,22 @@ const SocialLinks = () => {
             <a  target="_blank"
               rel="noopener" href="">DS</a>
           </li> */}
-          <li className="monument text-xl transform -rotate-90 flex-grow-0 text-center tracking-wider">
+          {/* <li className="monument text-xl transform -rotate-90 flex-grow-0 text-center tracking-wider">
             <a
               target="_blank"
               rel="noopener"
               href="https://www.youtube.com/channel/UCmlPUMfWVjjF0IHM32cX7pw"
             >
               YT
+            </a>
+          </li> */}
+          <li className="monument text-xl transform -rotate-90 flex-grow-0 text-center tracking-wider">
+            <a
+              target="_blank"
+              rel="noopener"
+              href="https://jacobdcastro.substack.com"
+            >
+              SS
             </a>
           </li>
           <li className="monument text-xl transform -rotate-90 flex-grow-0 text-center tracking-wider">
@@ -51,7 +60,7 @@ const SocialLinks = () => {
               rel="noopener"
               href="https://www.twitch.tv/jacobdcastro"
             >
-              TT
+              TV
             </a>
           </li>
         </ul>
